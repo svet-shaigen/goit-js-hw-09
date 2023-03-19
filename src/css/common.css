@@ -16,3 +16,21 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.btn-start,
+.btn-stop {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 15px 30px;
+  overflow: hidden;
+  border-radius: 30px;
+  border-bottom-width: 4px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(16, 16, 17);
+  background: rgb(40, 118, 49);
+  transition: color 0.3s, background 0.5s;
+}
