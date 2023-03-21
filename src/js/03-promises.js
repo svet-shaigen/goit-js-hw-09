@@ -23,8 +23,6 @@ function onFormSubmit(event) {
       });
       delay = delay + step;
   }
-
-  
 }
 
 
@@ -39,7 +37,6 @@ function createPromise(position, delay) {
       }
     }, delay);
   });
-
 }
 
 
