@@ -34,3 +34,10 @@ img {
   background: rgb(40, 118, 49);
   transition: color 0.3s, background 0.5s;
 }
+
+.value {
+  display: inline-block;
+  margin-right: 5px; /* Відступ зліва */
+  border: 1px solid #000; /* Рамка навколо тексту */
+  padding: 3px; /* Поля навколо тексту */
+}
